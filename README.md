@@ -1,20 +1,12 @@
-# Projeto Final - Rede Neural Artificial do Zero
-=================================================
-
-## Descrição
----------
-Este projeto tem como objetivo a implementação de uma Rede Neural Artificial (RNA) utilizando apenas bibliotecas de baixo nível como Numpy, sem utilização de frameworks de alto nível como TensorFlow ou PyTorch.
-
-A implementação foi desenvolvida como parte do Projeto Final da disciplina de Redes Neurais, no semestre 2025.1 da UFSC.
+# Projeto Final - Implementação de uma Rede Neural Artificial
+A implementação foi desenvolvida como parte do Projeto Final da disciplina de aprendizado de máquina, no semestre 2025.1 da UFSC.
 
 ## Integrantes
------------
-- Nome Completo 1
-- Nome Completo 2
-- Nome Completo 3
+- Vanessa Cunha (17100926)
+- Gabriel Oliveira Reis (19205056)
+- Pedro Ruschel Bressan (22100920) 
 
 ## Funcionalidades Implementadas
------------------------------
 - Estrutura modular de rede com múltiplas camadas
 - Algoritmo de retropropagação (backpropagation)
 - Otimização via gradiente descendente
@@ -26,22 +18,19 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
   - Classificação Multiclasse
 
 ## Estrutura do Projeto
----------------------
-/projeto_rna
-│
-├── /data              -> Bases de dados
-├── /notebooks         -> Notebooks para os três problemas
-├── /src               -> Código fonte
-│   ├── activations.py
-│   ├── losses.py
-│   ├── layer.py
-│   ├── network.py
-│   └── utils.py
-├── README.txt         -> Este arquivo
-└── requirements.txt   -> Dependências
+
+- data              -> Bases de dados
+- notebooks         -> Notebooks para os três problemas
+- src               -> Código fonte
+    - activations.py
+    - losses.py
+    - layer.py
+    - network.py
+    -  utils.py
+-  README.txt         -> Este arquivo
+- requirements.txt   -> Dependências
 
 ## Instalação
-----------
 1. Clone este repositório:
    git clone https://github.com/usuario/repositorio.git
    cd repositorio
@@ -50,12 +39,10 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
    pip install -r requirements.txt
 
 ## Como Executar
---------------
 1. Acesse os notebooks na pasta /notebooks.
 2. Execute as células para carregar os dados, treinar os modelos e visualizar os resultados.
 
 ## Dados Utilizados
------------------
 - Concrete Strength (Regressão)
 - Breast Cancer Wisconsin (Classificação Binária)
 - Iris (Classificação Multiclasse)
