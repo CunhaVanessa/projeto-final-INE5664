@@ -32,7 +32,7 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
 
 ## Instalação
 1. Clone este repositório:
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/CunhaVanessa/projeto-final-INE5664.git
    cd repositorio
 
 2. Instale as dependências:
@@ -56,7 +56,8 @@ Observações
 Este repositório está privado até o término das apresentações. Acesso concedido para:
 - GitHub: ProfCamiloUFSC
 
-# Checklist de Entrega
+Checklist de Entrega
+-----------
 
 | Item                                  | Status |
 | ------------------------------------- | ------ |
