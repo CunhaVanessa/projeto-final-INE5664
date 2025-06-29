@@ -10,15 +10,16 @@ df = pd.read_csv('spam.csv')
 X = df[['num_links', 'num_words', 'has_offer', 'sender_score', 'all_caps']].values
 y = df['is_spam'].astype(int).values.reshape(-1, 1)
 
-# Normalizar
-scaler = StandardScaler()
-X = scaler.fit_transform(X)
-
 # Separar treino/teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
 
+# Normalizar
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
 # Instanciar e treinar rede
-nn = NeuralNetwork(layers=[5, 8, 4, 1], activation='sigmoid', loss='bce', lr=0.05)
+nn = NeuralNetwork(layers=[5, 16, 8, 1], activation='relu', loss='bce', lr=0.5)
 nn.train(X_train, y_train, epochs=100)
 
 # Avaliação
