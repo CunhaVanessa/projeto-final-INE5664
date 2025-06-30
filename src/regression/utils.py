@@ -6,10 +6,7 @@ from tabulate import tabulate
 import os
 
 def evaluate_model(X_test, y_test, model, y_train_mean, y_train_std):
-    """
-    Avalia o modelo de regressão com as métricas MAE, MSE, RMSE e R².
-    Gera dois gráficos: Previsões vs Reais e Histograma de Erros.
-    """
+
     print("\nAvaliando o modelo...")
     
     # 1. Fazer previsões
@@ -66,6 +63,6 @@ def evaluate_model(X_test, y_test, model, y_train_mean, y_train_std):
     plt.savefig('regression/graphics/error_distribution.png', bbox_inches='tight')
     plt.close()
     
-    print("\nAvaliação concluída! Resultados salvos em 'regression/evaluation/'")
+    print("\nAvaliação concluída! Resultados salvos em 'regression/graphics/'")
     
     return metrics
