@@ -45,7 +45,7 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
    pip install -r requirements.txt
 
 5. Para executar o Notebook de Classificação Multi-Classes:
-   jupyter notebook notebooks/rna_multiclass.ipynb
+   jupyter notebook notebooks/classification_multiclass_wine_notebook.ipynb
 
 
 ## Como Executar
