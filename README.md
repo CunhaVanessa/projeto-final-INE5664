@@ -35,8 +35,18 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
    git clone https://github.com/CunhaVanessa/projeto-final-INE5664.git
    cd repositorio
 
-2. Instale as dependências:
+2. Crie um ambiente vitual:
+   python -m venv venv
+
+3. Ative o ambiente vitual:
+   source venv/bin/activate
+
+4. Instale as dependências:
    pip install -r requirements.txt
+
+5. Para executar o Notebook de Classificação Multi-Classes:
+   jupyter notebook notebooks/rna_multiclass.ipynb
+
 
 ## Como Executar
 1. Acesse os notebooks na pasta /notebooks.
@@ -45,7 +55,7 @@ A implementação foi desenvolvida como parte do Projeto Final da disciplina de 
 ## Dados Utilizados
 - Concrete Strength (Regressão)
 - Breast Cancer Wisconsin (Classificação Binária)
-- Iris (Classificação Multiclasse)
+- Wine Quality Classification (Classificação Multiclasse)
 
 Tag de Avaliação
 -----------------
